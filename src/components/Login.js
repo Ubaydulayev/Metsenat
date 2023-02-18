@@ -4,6 +4,7 @@ import logo from "../img/metsenatclub.svg";
 import recapt from "../img/reCAPTCHA.svg";
 import Header from "../containers/Header";
 import Head from "./Head";
+import { Link } from "react-router-dom";
 
 const Login = () => {
   return (
@@ -34,7 +35,9 @@ const Login = () => {
             </div>
             <img src={recapt} alt="recapt" className="p-2" />
           </div>
-          <button className="btn btn-primary w-100 mt-3">Kirish</button>
+          <Link to={"/dashboard"}>
+            <button className="btn btn-primary w-100 mt-3">Kirish</button>
+          </Link>
         </div>
       </div>
     </LoginWrapper>

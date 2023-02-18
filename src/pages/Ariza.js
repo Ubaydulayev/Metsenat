@@ -28,7 +28,7 @@ const Ariza = () => {
               <FontAwesomeIcon icon={faRightToBracket} className="mt-1" />
               <p className="ms-2">Kirish</p>
             </Link>
-            <Link to={"/"} className="headLink">
+            <Link to={"/login"} className="headLink">
               <button className="btn headBut">Ro‘yxatdan o’tish</button>
             </Link>
           </div>
